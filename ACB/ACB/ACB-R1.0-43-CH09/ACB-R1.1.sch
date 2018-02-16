@@ -8470,7 +8470,7 @@ a nefunguje to optimalne</text>
 <text x="-133.604" y="272.288" size="0.889" layer="95" rot="R90">66mV</text>
 <text x="-76.2" y="265.176" size="0.889" layer="95">prechodovy pri ADON,REFEN=0-&gt;1 cca 250us</text>
 <text x="-76.2" y="263.906" size="0.889" layer="95">tzn. pri odberu cca 0,22mA</text>
-<text x="-142.24" y="332.74" size="1.778" layer="95">V datshitu DS60001185F-page 318 je uvedeno,
+<text x="-152.4" y="332.74" size="1.778" layer="95">V datshitu DS60001185F-page 318 je uvedeno,
 ze AN15-AN27 jsou na hovno....  pice...
 CURR-SENSE je na AN19
 asi by slo prohodit s /3.3V1PWRON</text>
@@ -8610,6 +8610,15 @@ v připadě zkratu by asi odesel driv nez pojistka</text>
 <text x="698.5" y="650.24" size="1.778" layer="97">find connector for motor</text>
 <text x="706.12" y="670.56" size="1.778" layer="97">find connector for door sensor</text>
 <text x="698.5" y="579.12" size="1.778" layer="97">find connector for door sensor</text>
+<wire x1="619.76" y1="683.26" x2="619.76" y2="495.3" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="619.76" y1="495.3" x2="767.08" y2="495.3" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="767.08" y1="495.3" x2="767.08" y2="683.26" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="767.08" y1="683.26" x2="619.76" y2="683.26" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="619.76" y1="495.3" x2="350.52" y2="495.3" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="350.52" y1="495.3" x2="350.52" y2="683.26" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="350.52" y1="683.26" x2="619.76" y2="683.26" width="0.1524" layer="94" style="shortdash"/>
+<text x="764.54" y="505.46" size="6.4516" layer="94" rot="R180">GEAR MOTOR BOARD</text>
+<text x="617.22" y="505.46" size="6.4516" layer="94" rot="R180">G5 MOTOR DRIVER CIRCUIT</text>
 </plain>
 <instances>
 <instance part="IC2" gate="G$1" x="259.08" y="695.96"/>
