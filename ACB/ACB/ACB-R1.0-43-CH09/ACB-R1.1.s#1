@@ -8470,7 +8470,7 @@ a nefunguje to optimalne</text>
 <text x="-133.604" y="272.288" size="0.889" layer="95" rot="R90">66mV</text>
 <text x="-76.2" y="265.176" size="0.889" layer="95">prechodovy pri ADON,REFEN=0-&gt;1 cca 250us</text>
 <text x="-76.2" y="263.906" size="0.889" layer="95">tzn. pri odberu cca 0,22mA</text>
-<text x="-142.24" y="332.74" size="1.778" layer="95">V datshitu DS60001185F-page 318 je uvedeno,
+<text x="-152.4" y="332.74" size="1.778" layer="95">V datshitu DS60001185F-page 318 je uvedeno,
 ze AN15-AN27 jsou na hovno....  pice...
 CURR-SENSE je na AN19
 asi by slo prohodit s /3.3V1PWRON</text>

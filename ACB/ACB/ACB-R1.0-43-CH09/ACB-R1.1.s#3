@@ -13557,7 +13557,7 @@ v připadě zkratu by asi odesel driv nez pojistka</text>
 <pinref part="O40" gate="G$1" pin="TP"/>
 </segment>
 </net>
-<net name="D+" class="0">
+<net name="D_P" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="D+/RG2"/>
 <wire x1="68.58" y1="241.3" x2="137.16" y2="241.3" width="0.1524" layer="91"/>
@@ -13574,7 +13574,7 @@ v připadě zkratu by asi odesel driv nez pojistka</text>
 <wire x1="165.1" y1="238.76" x2="170.18" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="D-" class="0">
+<net name="D_N" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="D-/RG3"/>
 <wire x1="124.46" y1="238.76" x2="68.58" y2="238.76" width="0.1524" layer="91"/>

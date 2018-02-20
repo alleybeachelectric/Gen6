@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.0">
+<eagle version="8.6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -6105,6 +6105,399 @@ origin byl p;vodne na na padu 2 - tohle je opravdu velmi ynteligenti -davat orog
 </deviceset>
 </devicesets>
 </library>
+<library name="holes" urn="urn:adsk.eagle:library:237">
+<description>&lt;b&gt;Mounting Holes and Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="2,8" urn="urn:adsk.eagle:footprint:14239/1" library_version="1">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 2.8 mm with drill center</description>
+<wire x1="-1.778" y1="0" x2="0" y2="-1.778" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="1.778" x2="1.778" y2="0" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="2.921" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="42"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="1.5" width="0.2032" layer="21"/>
+<hole x="0" y="0" drill="2.8"/>
+</package>
+<package name="3,0" urn="urn:adsk.eagle:footprint:14240/1" library_version="1">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 3.0 mm with drill center</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="42"/>
+<circle x="0" y="0" radius="1.6" width="0.2032" layer="21"/>
+<text x="-1.27" y="-3.81" size="1.27" layer="48">3,0</text>
+<hole x="0" y="0" drill="3"/>
+</package>
+<package name="3,3" urn="urn:adsk.eagle:footprint:14241/1" library_version="1">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 3.3 mm with drill center</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.048" width="2.54" layer="39"/>
+<circle x="0" y="0" radius="3.048" width="2.54" layer="40"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="42"/>
+<circle x="0" y="0" radius="1.75" width="0.2032" layer="21"/>
+<hole x="0" y="0" drill="3.3"/>
+</package>
+<package name="3,6" urn="urn:adsk.eagle:footprint:14242/1" library_version="1">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 3.6 mm with drill center</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.048" width="2.7686" layer="39"/>
+<circle x="0" y="0" radius="3.048" width="2.7686" layer="40"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="42"/>
+<circle x="0" y="0" radius="1.9" width="0.2032" layer="21"/>
+<hole x="0" y="0" drill="3.6"/>
+</package>
+<package name="4,1" urn="urn:adsk.eagle:footprint:14243/1" library_version="1">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 4.1 mm with drill center</description>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="39"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="40"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="41"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="42"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="43"/>
+<circle x="0" y="0" radius="2.15" width="0.1524" layer="21"/>
+<hole x="0" y="0" drill="4.1"/>
+</package>
+<package name="4,5" urn="urn:adsk.eagle:footprint:14244/1" library_version="1">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 4.5 mm with drill center</description>
+<wire x1="4.445" y1="0" x2="2.159" y2="0" width="0.0508" layer="21"/>
+<wire x1="0" y1="4.445" x2="0" y2="2.159" width="0.0508" layer="21"/>
+<wire x1="-2.159" y1="0" x2="-4.445" y2="0" width="0.0508" layer="21"/>
+<wire x1="0" y1="-2.159" x2="0" y2="-4.445" width="0.0508" layer="21"/>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="39"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="40"/>
+<circle x="0" y="0" radius="3.8184" width="2.54" layer="41"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="42"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="43"/>
+<circle x="0" y="0" radius="2.35" width="0.1524" layer="21"/>
+<text x="-1.27" y="-4.445" size="1.27" layer="48">4,5</text>
+<hole x="0" y="0" drill="4.5"/>
+</package>
+<package name="5,0" urn="urn:adsk.eagle:footprint:14245/1" library_version="1">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 5.0 mm with drill center</description>
+<wire x1="4.445" y1="0" x2="2.159" y2="0" width="0.0508" layer="21"/>
+<wire x1="0" y1="4.445" x2="0" y2="2.159" width="0.0508" layer="21"/>
+<wire x1="-2.159" y1="0" x2="-4.445" y2="0" width="0.0508" layer="21"/>
+<wire x1="0" y1="-2.159" x2="0" y2="-4.445" width="0.0508" layer="21"/>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="39"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="40"/>
+<circle x="0" y="0" radius="4.826" width="2.54" layer="43"/>
+<circle x="0" y="0" radius="4.826" width="2.54" layer="42"/>
+<circle x="0" y="0" radius="4.826" width="2.54" layer="41"/>
+<circle x="0" y="0" radius="2.6" width="0.1524" layer="21"/>
+<text x="-1.27" y="-4.445" size="1.27" layer="48">5,0</text>
+<hole x="0" y="0" drill="5"/>
+</package>
+<package name="3,2" urn="urn:adsk.eagle:footprint:14246/1" library_version="1">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 3.2 mm with drill center</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="42"/>
+<circle x="0" y="0" radius="1.7" width="0.2032" layer="21"/>
+<hole x="0" y="0" drill="3.2"/>
+</package>
+<package name="4,3" urn="urn:adsk.eagle:footprint:14247/1" library_version="1">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 4.3 mm with drill center</description>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="39"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="40"/>
+<circle x="0" y="0" radius="3.8184" width="2.54" layer="41"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="42"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="43"/>
+<circle x="0" y="0" radius="2.25" width="0.1524" layer="21"/>
+<hole x="0" y="0" drill="4.3"/>
+</package>
+<package name="5,5" urn="urn:adsk.eagle:footprint:14248/1" library_version="1">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 5.5 mm with drill center</description>
+<wire x1="4.445" y1="0" x2="2.159" y2="0" width="0.0508" layer="21"/>
+<wire x1="0" y1="4.445" x2="0" y2="2.159" width="0.0508" layer="21"/>
+<wire x1="-2.159" y1="0" x2="-4.445" y2="0" width="0.0508" layer="21"/>
+<wire x1="0" y1="-2.159" x2="0" y2="-4.445" width="0.0508" layer="21"/>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="39"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="40"/>
+<circle x="0" y="0" radius="4.826" width="2.54" layer="43"/>
+<circle x="0" y="0" radius="4.826" width="2.54" layer="42"/>
+<circle x="0" y="0" radius="4.826" width="2.54" layer="41"/>
+<circle x="0" y="0" radius="2.85" width="0.1524" layer="21"/>
+<hole x="0" y="0" drill="5.5"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="2,8" urn="urn:adsk.eagle:package:14271/1" type="box" library_version="1">
+<description>MOUNTING HOLE 2.8 mm with drill center</description>
+</package3d>
+<package3d name="3,0" urn="urn:adsk.eagle:package:14277/1" type="box" library_version="1">
+<description>MOUNTING HOLE 3.0 mm with drill center</description>
+</package3d>
+<package3d name="3,3" urn="urn:adsk.eagle:package:14278/1" type="box" library_version="1">
+<description>MOUNTING HOLE 3.3 mm with drill center</description>
+</package3d>
+<package3d name="3,6" urn="urn:adsk.eagle:package:14272/1" type="box" library_version="1">
+<description>MOUNTING HOLE 3.6 mm with drill center</description>
+</package3d>
+<package3d name="4,1" urn="urn:adsk.eagle:package:14273/1" type="box" library_version="1">
+<description>MOUNTING HOLE 4.1 mm with drill center</description>
+</package3d>
+<package3d name="4,5" urn="urn:adsk.eagle:package:14274/1" type="box" library_version="1">
+<description>MOUNTING HOLE 4.5 mm with drill center</description>
+</package3d>
+<package3d name="5,0" urn="urn:adsk.eagle:package:14276/1" type="box" library_version="1">
+<description>MOUNTING HOLE 5.0 mm with drill center</description>
+</package3d>
+<package3d name="3,2" urn="urn:adsk.eagle:package:14275/1" type="box" library_version="1">
+<description>MOUNTING HOLE 3.2 mm with drill center</description>
+</package3d>
+<package3d name="4,3" urn="urn:adsk.eagle:package:14289/1" type="box" library_version="1">
+<description>MOUNTING HOLE 4.3 mm with drill center</description>
+</package3d>
+<package3d name="5,5" urn="urn:adsk.eagle:package:14279/1" type="box" library_version="1">
+<description>MOUNTING HOLE 5.5 mm with drill center</description>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="MOUNT-HOLE" urn="urn:adsk.eagle:symbol:14238/1" library_version="1">
+<wire x1="0" y1="1.27" x2="1.27" y2="0" width="1.524" layer="94" curve="-90" cap="flat"/>
+<wire x1="-1.27" y1="0" x2="0" y2="-1.27" width="1.524" layer="94" curve="90" cap="flat"/>
+<wire x1="-0.508" y1="0" x2="0.508" y2="0" width="0.0508" layer="94"/>
+<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.0508" layer="94"/>
+<circle x="0" y="0" radius="2.032" width="0.0508" layer="94"/>
+<circle x="0" y="0" radius="0.508" width="0.0508" layer="94"/>
+<text x="2.032" y="0.5842" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.032" y="-2.4638" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MOUNT-HOLE" urn="urn:adsk.eagle:component:14301/1" prefix="H" library_version="1">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; with drill center marker</description>
+<gates>
+<gate name="G$1" symbol="MOUNT-HOLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="2.8" package="2,8">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14271/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.0" package="3,0">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14277/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.3" package="3,3">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14278/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.6" package="3,6">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14272/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="4.1" package="4,1">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14273/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="4.5" package="4,5">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14274/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5.0" package="5,0">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14276/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.2" package="3,2">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14275/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="4.3" package="4,3">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14289/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5.5" package="5,5">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14279/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="con-amp" urn="urn:adsk.eagle:library:127">
+<description>&lt;b&gt;AMP Connectors&lt;/b&gt;&lt;p&gt;
+RJ45 Jack connectors&lt;br&gt;
+ Based on the previous libraris:
+ &lt;ul&gt;
+ &lt;li&gt;amp.lbr
+ &lt;li&gt;amp-j.lbr
+ &lt;li&gt;amp-mta.lbr
+ &lt;li&gt;amp-nlok.lbr
+ &lt;li&gt;amp-sim.lbr
+ &lt;li&gt;amp-micro-match.lbr
+ &lt;/ul&gt;
+ Sources :
+ &lt;ul&gt;
+ &lt;li&gt;Catalog 82066 Revised 11-95 
+ &lt;li&gt;Product Guide 296785 Rev. 8-99
+ &lt;li&gt;Product Guide CD-ROM 1999
+ &lt;li&gt;www.amp.com
+ &lt;/ul&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="1X7MTA" library_version="1">
+<description>&lt;b&gt;AMP MTA connector&lt;/b&gt;</description>
+<wire x1="13.97" y1="6.35" x2="13.97" y2="3.81" width="0.4064" layer="21"/>
+<wire x1="13.97" y1="3.81" x2="13.97" y2="-3.81" width="0.4064" layer="21"/>
+<wire x1="-13.97" y1="-3.81" x2="-13.97" y2="3.81" width="0.4064" layer="21"/>
+<wire x1="-13.97" y1="3.81" x2="-13.97" y2="6.35" width="0.4064" layer="21"/>
+<wire x1="-13.97" y1="6.35" x2="13.97" y2="6.35" width="0.4064" layer="21"/>
+<wire x1="-13.97" y1="3.81" x2="13.97" y2="3.81" width="0.3048" layer="21"/>
+<wire x1="-13.97" y1="-3.81" x2="13.97" y2="-3.81" width="0.4064" layer="21"/>
+<pad name="3" x="3.9624" y="0" drill="1.6764" shape="long" rot="R90"/>
+<pad name="2" x="7.9248" y="0" drill="1.6764" shape="long" rot="R90"/>
+<pad name="1" x="11.8872" y="0" drill="1.6764" shape="long" rot="R90"/>
+<pad name="4" x="0" y="0" drill="1.6764" shape="long" rot="R90"/>
+<pad name="5" x="-3.9624" y="0" drill="1.6764" shape="long" rot="R90"/>
+<pad name="6" x="-7.9248" y="0" drill="1.6764" shape="long" rot="R90"/>
+<pad name="7" x="-11.8872" y="0" drill="1.6764" shape="long" rot="R90"/>
+<text x="-3.5814" y="-7.0612" size="1.778" layer="25">&gt;NAME</text>
+<text x="-13.1763" y="4.4508" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="11.3792" y1="-0.508" x2="12.3952" y2="0.508" layer="21"/>
+<rectangle x1="7.4168" y1="-0.508" x2="8.4328" y2="0.508" layer="21"/>
+<rectangle x1="3.4544" y1="-0.508" x2="4.4704" y2="0.508" layer="21"/>
+<rectangle x1="-0.508" y1="-0.508" x2="0.508" y2="0.508" layer="21"/>
+<rectangle x1="-4.4704" y1="-0.508" x2="-3.4544" y2="0.508" layer="21"/>
+<rectangle x1="-8.4328" y1="-0.508" x2="-7.4168" y2="0.508" layer="21"/>
+<rectangle x1="-12.3952" y1="-0.508" x2="-11.3792" y2="0.508" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MTA-07" library_version="1">
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="16.51" y1="-1.905" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="16.51" y1="-1.905" x2="16.51" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="16.51" y2="1.27" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="0.635" width="0.254" layer="94"/>
+<circle x="2.54" y="0" radius="0.635" width="0.254" layer="94"/>
+<circle x="5.08" y="0" radius="0.635" width="0.254" layer="94"/>
+<circle x="7.62" y="0" radius="0.635" width="0.254" layer="94"/>
+<circle x="10.16" y="0" radius="0.635" width="0.254" layer="94"/>
+<circle x="12.7" y="0" radius="0.635" width="0.254" layer="94"/>
+<circle x="15.24" y="0" radius="0.635" width="0.254" layer="94"/>
+<text x="17.78" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="17.78" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="-1.27" size="1.27" layer="95">1</text>
+<pin name="1" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="4" x="7.62" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="5" x="10.16" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="6" x="12.7" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="7" x="15.24" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MTA07-156" prefix="J" uservalue="yes" library_version="1">
+<description>&lt;b&gt;AMP connector&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="MTA-07" x="-7.62" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X7MTA">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6630,6 +7023,13 @@ origin byl p;vodne na na padu 2 - tohle je opravdu velmi ynteligenti -davat orog
 <part name="REF1" library="technol" deviceset="REF" device=""/>
 <part name="REF2" library="technol" deviceset="REF" device=""/>
 <part name="R132" library="DISCRETE" deviceset="R-0603" device="" value="1M"/>
+<part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
+<part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
+<part name="H5" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
+<part name="H6" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
+<part name="H7" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
+<part name="H8" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
+<part name="J13" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA07-156" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7307,14 +7707,20 @@ v připadě zkratu by asi odesel driv nez pojistka</text>
 <wire x1="350.52" y1="464.82" x2="579.12" y2="464.82" width="0.1524" layer="94" style="longdash"/>
 <wire x1="579.12" y1="464.82" x2="579.12" y2="617.22" width="0.1524" layer="94" style="longdash"/>
 <wire x1="579.12" y1="617.22" x2="350.52" y2="617.22" width="0.1524" layer="94" style="longdash"/>
-<wire x1="589.28" y1="548.64" x2="589.28" y2="467.36" width="0.1524" layer="94" style="longdash"/>
-<wire x1="589.28" y1="467.36" x2="642.62" y2="467.36" width="0.1524" layer="94" style="longdash"/>
+<wire x1="581.66" y1="548.64" x2="581.66" y2="467.36" width="0.1524" layer="94" style="longdash"/>
+<wire x1="581.66" y1="467.36" x2="642.62" y2="467.36" width="0.1524" layer="94" style="longdash"/>
 <wire x1="642.62" y1="467.36" x2="642.62" y2="548.64" width="0.1524" layer="94" style="longdash"/>
-<wire x1="642.62" y1="548.64" x2="589.28" y2="548.64" width="0.1524" layer="94" style="longdash"/>
+<wire x1="642.62" y1="548.64" x2="581.66" y2="548.64" width="0.1524" layer="94" style="longdash"/>
 <wire x1="-165.1" y1="165.1" x2="-165.1" y2="462.28" width="0.1524" layer="94" style="longdash"/>
 <wire x1="-165.1" y1="462.28" x2="-434.34" y2="462.28" width="0.1524" layer="94" style="longdash"/>
 <wire x1="-434.34" y1="462.28" x2="-434.34" y2="165.1" width="0.1524" layer="94" style="longdash"/>
 <wire x1="-434.34" y1="165.1" x2="-165.1" y2="165.1" width="0.1524" layer="94" style="longdash"/>
+<text x="589.28" y="553.72" size="6.4516" layer="94">replace BT connector</text>
+<text x="-312.42" y="480.06" size="6.4516" layer="94">IR_LED</text>
+<text x="-139.7" y="477.52" size="6.4516" layer="94">DOOR</text>
+<text x="119.38" y="477.52" size="6.4516" layer="94">VPS</text>
+<text x="353.06" y="467.36" size="6.4516" layer="94">RAM</text>
+<text x="353.06" y="167.64" size="6.4516" layer="94">ETHERNET CONTROL</text>
 </plain>
 <instances>
 <instance part="IC2" gate="G$1" x="497.84" y="523.24"/>
@@ -8027,6 +8433,13 @@ v připadě zkratu by asi odesel driv nez pojistka</text>
 <instance part="R132" gate="G$1" x="469.9" y="312.42" rot="R270"/>
 <instance part="Q3" gate="-B" x="-248.92" y="515.62"/>
 <instance part="Q14" gate="-B" x="-172.72" y="515.62"/>
+<instance part="H3" gate="G$1" x="655.32" y="480.06"/>
+<instance part="H4" gate="G$1" x="662.94" y="480.06"/>
+<instance part="H5" gate="G$1" x="670.56" y="480.06"/>
+<instance part="H6" gate="G$1" x="655.32" y="472.44"/>
+<instance part="H7" gate="G$1" x="662.94" y="472.44"/>
+<instance part="H8" gate="G$1" x="670.56" y="472.44"/>
+<instance part="J13" gate="G$1" x="586.74" y="518.16" rot="MR270"/>
 </instances>
 <busses>
 <bus name="D[0..7]">
@@ -9503,6 +9916,9 @@ v připadě zkratu by asi odesel driv nez pojistka</text>
 <wire x1="604.52" y1="518.16" x2="601.98" y2="518.16" width="0.1524" layer="91"/>
 <pinref part="U$123" gate="G$1" pin="DGND"/>
 <pinref part="J14" gate="G$1" pin="1"/>
+<wire x1="601.98" y1="518.16" x2="589.28" y2="518.16" width="0.1524" layer="91"/>
+<junction x="601.98" y="518.16"/>
+<pinref part="J13" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="PCB3" gate="G$1" pin="P$1"/>
@@ -10350,6 +10766,9 @@ v připadě zkratu by asi odesel driv nez pojistka</text>
 <wire x1="614.68" y1="515.62" x2="622.3" y2="515.62" width="0.1524" layer="91"/>
 <wire x1="622.3" y1="515.62" x2="622.3" y2="525.78" width="0.1524" layer="91"/>
 <junction x="614.68" y="515.62"/>
+<pinref part="J13" gate="G$1" pin="2"/>
+<wire x1="601.98" y1="515.62" x2="589.28" y2="515.62" width="0.1524" layer="91"/>
+<junction x="601.98" y="515.62"/>
 </segment>
 <segment>
 <pinref part="R129" gate="G$1" pin="1"/>
@@ -12187,6 +12606,9 @@ v připadě zkratu by asi odesel driv nez pojistka</text>
 <label x="603.885" y="508.3175" size="1.778" layer="95"/>
 <pinref part="J14" gate="G$1" pin="5"/>
 <pinref part="T42" gate="G$1" pin="TP"/>
+<pinref part="J13" gate="G$1" pin="5"/>
+<wire x1="601.98" y1="508" x2="589.28" y2="508" width="0.1524" layer="91"/>
+<junction x="601.98" y="508"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="A" pin="RPD0/INT0/RD0"/>
@@ -12201,6 +12623,9 @@ v připadě zkratu by asi odesel driv nez pojistka</text>
 <label x="603.885" y="505.7775" size="1.778" layer="95"/>
 <pinref part="J14" gate="G$1" pin="6"/>
 <pinref part="T43" gate="G$1" pin="TP"/>
+<pinref part="J13" gate="G$1" pin="6"/>
+<wire x1="601.98" y1="505.46" x2="589.28" y2="505.46" width="0.1524" layer="91"/>
+<junction x="601.98" y="505.46"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="A" pin="AN26/RPD3/RD3"/>
@@ -12215,6 +12640,9 @@ v připadě zkratu by asi odesel driv nez pojistka</text>
 <label x="603.885" y="503.2375" size="1.778" layer="95"/>
 <pinref part="J14" gate="G$1" pin="7"/>
 <pinref part="T44" gate="G$1" pin="TP"/>
+<pinref part="J13" gate="G$1" pin="7"/>
+<wire x1="601.98" y1="502.92" x2="589.28" y2="502.92" width="0.1524" layer="91"/>
+<junction x="601.98" y="502.92"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="A" pin="PMD14/RD6"/>
@@ -12229,6 +12657,9 @@ v připadě zkratu by asi odesel driv nez pojistka</text>
 <label x="603.885" y="513.3975" size="1.778" layer="95"/>
 <pinref part="J14" gate="G$1" pin="3"/>
 <pinref part="T40" gate="G$1" pin="TP"/>
+<pinref part="J13" gate="G$1" pin="3"/>
+<wire x1="601.98" y1="513.08" x2="589.28" y2="513.08" width="0.1524" layer="91"/>
+<junction x="601.98" y="513.08"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="A" pin="SOSCI/RPC13/RC13"/>
@@ -12243,6 +12674,9 @@ v připadě zkratu by asi odesel driv nez pojistka</text>
 <label x="603.885" y="510.8575" size="1.778" layer="95"/>
 <pinref part="J14" gate="G$1" pin="4"/>
 <pinref part="T41" gate="G$1" pin="TP"/>
+<pinref part="J13" gate="G$1" pin="4"/>
+<wire x1="601.98" y1="510.54" x2="589.28" y2="510.54" width="0.1524" layer="91"/>
+<junction x="601.98" y="510.54"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="A" pin="SOSCO/RPC14/T1CK/RC14"/>
@@ -12328,6 +12762,21 @@ v připadě zkratu by asi odesel driv nez pojistka</text>
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
+</note>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
