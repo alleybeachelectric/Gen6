@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.6.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="12.5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="ReferenceLS" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="SMD_ROUND_1MM">
+<smd name="P$1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100"/>
+<text x="0" y="0.6" size="1" layer="21" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
+</package>
+<package name="SMD_ROUND_05MM">
+<smd name="P$1" x="0" y="0" dx="0.508" dy="0.508" layer="1" roundness="100"/>
+<text x="-0.762" y="0.6096" size="0.762" layer="25" font="vector" ratio="13">&gt;name</text>
+</package>
+<package name="SMD_ROUND_07MM">
+<smd name="P$1" x="0" y="0" dx="0.7" dy="0.7" layer="1" roundness="100"/>
+<text x="-0.762" y="0.6096" size="0.762" layer="25" font="vector" ratio="13">&gt;name</text>
+</package>
+<package name="TEMP-PAD">
+<smd name="P$1" x="0" y="0" dx="0.2" dy="0.2" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<circle x="0" y="0" radius="0.15" width="0.05" layer="23"/>
+</package>
+<package name="TH_ROUND_14MM08MM">
+<pad name="P$1" x="0" y="0" drill="0.8" diameter="1.4"/>
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.15" layer="21"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="-1.27" width="0.15" layer="21"/>
+<wire x1="1.27" y1="-1.27" x2="-1.27" y2="-1.27" width="0.15" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.15" layer="21"/>
+<text x="0" y="1.5" size="1.27" layer="21" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="PPAD">
+<circle x="0" y="1.27" radius="0.635" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<pin name="TP" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<text x="-2.54" y="3.175" size="1.524" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="PICOUT">
+<pin name="TP" x="2.54" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+<text x="0" y="0.508" size="1.524" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-1.778" y="-1.524" size="1.27" layer="94" ratio="10">OUT</text>
+<circle x="-2.54" y="0" radius="0.359209375" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="PICRP">
+<pin name="TP" x="2.54" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+<text x="0" y="0.508" size="1.524" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-1.778" y="-1.524" size="1.27" layer="94" ratio="10">RPx</text>
+<wire x1="-2.54" y1="0.508" x2="-2.032" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="0" x2="-2.54" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-0.508" x2="-3.048" y2="0" width="0.1524" layer="94"/>
+<wire x1="-3.048" y1="0" x2="-2.54" y2="0.508" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="PICAN">
+<pin name="TP" x="2.54" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+<text x="0" y="0.635" size="1.524" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-1.778" y="-1.524" size="1.27" layer="94" ratio="10">AN</text>
+<wire x1="-3.048" y1="0.508" x2="-2.032" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="0.508" x2="-2.032" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="-0.508" x2="-3.048" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-3.048" y1="-0.508" x2="-3.048" y2="0.508" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="PICANRP">
+<pin name="TP" x="2.54" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+<text x="0" y="0.635" size="1.524" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-2.286" y="-1.524" size="1.27" layer="94" ratio="10">ANRP</text>
+<wire x1="-3.048" y1="0.508" x2="-2.032" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="0.508" x2="-2.032" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="-0.508" x2="-3.048" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-3.048" y1="-0.508" x2="-3.048" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="-3.048" y1="0.508" x2="-2.032" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-3.048" y1="-0.508" x2="-2.032" y2="0.508" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GPIO">
+<pin name="TP" x="2.54" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+<text x="0" y="0.508" size="1.524" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-2.286" y="-1.524" size="1.27" layer="94" ratio="10">GPIO</text>
+<wire x1="-2.54" y1="0.381" x2="-2.54" y2="-0.381" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0.381" x2="-2.921" y2="0.381" width="0.1524" layer="94"/>
+<wire x1="-2.921" y1="0.381" x2="-2.921" y2="-0.381" width="0.1524" layer="94"/>
+<wire x1="-2.921" y1="-0.381" x2="-2.54" y2="-0.381" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ROUND_SMD" prefix="TP" uservalue="yes">
+<description>Generic round SMD testpad</description>
+<gates>
+<gate name="G$1" symbol="PPAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0.5MM" package="SMD_ROUND_05MM">
+<connects>
+<connect gate="G$1" pin="TP" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0.7MM" package="SMD_ROUND_07MM">
+<connects>
+<connect gate="G$1" pin="TP" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1MM" package="SMD_ROUND_1MM">
+<connects>
+<connect gate="G$1" pin="TP" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TH1.4MM" package="TH_ROUND_14MM08MM">
+<connects>
+<connect gate="G$1" pin="TP" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PIC-OUT" prefix="T">
+<description>Docasna soucastka na smerovani wire k procesoru bez pripojeni k procesoru</description>
+<gates>
+<gate name="G$1" symbol="PICOUT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TEMP-PAD">
+<connects>
+<connect gate="G$1" pin="TP" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PIC-RPX" prefix="T">
+<description>Docasna soucastka na smerovani wire k procesoru bez pripojeni k procesoru</description>
+<gates>
+<gate name="G$1" symbol="PICRP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TEMP-PAD">
+<connects>
+<connect gate="G$1" pin="TP" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PIN-AN" prefix="T">
+<description>Docasna soucastka na smerovani wire k procesoru bez pripojeni k procesoru</description>
+<gates>
+<gate name="G$1" symbol="PICAN" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="TEMP-PAD">
+<connects>
+<connect gate="G$1" pin="TP" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GPIO" prefix="T">
+<gates>
+<gate name="G$1" symbol="GPIO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TEMP-PAD">
+<connects>
+<connect gate="G$1" pin="TP" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PIC-ANRPX" prefix="T">
+<gates>
+<gate name="G$1" symbol="PICANRP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TEMP-PAD">
+<connects>
+<connect gate="G$1" pin="TP" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
