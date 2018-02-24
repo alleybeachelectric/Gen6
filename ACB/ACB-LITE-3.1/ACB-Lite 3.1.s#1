@@ -5237,9 +5237,9 @@ origin byl p;vodne na na padu 2 - tohle je opravdu velmi ynteligenti -davat orog
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="LV" width="0" drill="0.3">
+<class number="0" name="LV" width="0" drill="0">
 </class>
-<class number="1" name="HV" width="0" drill="0.3">
+<class number="1" name="HV" width="0" drill="0">
 <clearance class="0" value="0.3"/>
 </class>
 <class number="2" name="GND" width="0" drill="0">

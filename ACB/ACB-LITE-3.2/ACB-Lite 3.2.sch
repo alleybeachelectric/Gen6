@@ -5231,6 +5231,67 @@ origin byl p;vodne na na padu 2 - tohle je opravdu velmi ynteligenti -davat orog
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Hardware">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+This library contains board components that are not electrical in nature, such as stand-offs, magnets, and Actobotics. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="STANDOFF-ELECTRICAL">
+<description>&lt;h3&gt;Standoff (#4 Screw) - w/ Electrical Connection&lt;/h3&gt;
+&lt;p&gt;This is the mechanical footprint for a #4 phillips button head screw.&lt;/p&gt;
+&lt;p&gt;The drill is surrounded by a copper ring, which can be connected to any net.&lt;/p&gt;
+&lt;h4&gt;Devices Using&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;STAND-OFF&lt;/li&gt;&lt;/ul&gt;</description>
+<pad name="P1" x="0" y="0" drill="3.2" diameter="6.35"/>
+<text x="0" y="3.302" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="STANDOFF_ELECTRICAL">
+<description>&lt;h3&gt;Stand-Off with Electrical Connection&lt;/h3&gt;</description>
+<pin name="P$1" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+<circle x="0" y="0" radius="5.08" width="0.254" layer="94"/>
+<text x="0" y="5.334" size="1.27" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.334" size="1.27" layer="96" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="STANDOFF_ELECTRICAL" prefix="H">
+<description>&lt;h3&gt;Stand Off&lt;/h3&gt;
+&lt;p&gt;Drill holes with an electrical connection. For example, use these to ground your board to a chassis.&lt;/p&gt;
+&lt;h4&gt;Example SparkFun Products&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10453"&gt;Screw - Phillips Head (1/4", 4-40, 10 pack)&lt;/a&gt; (PRT-10453)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10452"&gt;Screw - Phillips Head (1/2", 4-40, 10 pack)&lt;/a&gt; (PRT-10452)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10451"&gt;Screw - Phillips Head (3/4", 4-40, 10 pack)&lt;/a&gt; (PRT-10451)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10450"&gt;Screw - Phillips Head (1", 4-40, 10 pack)&lt;/a&gt; (PRT-10450)&lt;/li&gt;</description>
+<gates>
+<gate name="G$1" symbol="STANDOFF_ELECTRICAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="STANDOFF-ELECTRICAL">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5584,6 +5645,13 @@ origin byl p;vodne na na padu 2 - tohle je opravdu velmi ynteligenti -davat orog
 <part name="U$33" library="SUPPLY" deviceset="DGND" device=""/>
 <part name="U$34" library="SUPPLY" deviceset="DGND" device=""/>
 <part name="U$35" library="SUPPLY" deviceset="DGND" device=""/>
+<part name="H9" library="SparkFun-Hardware" deviceset="STANDOFF_ELECTRICAL" device=""/>
+<part name="H10" library="SparkFun-Hardware" deviceset="STANDOFF_ELECTRICAL" device=""/>
+<part name="H11" library="SparkFun-Hardware" deviceset="STANDOFF_ELECTRICAL" device=""/>
+<part name="H12" library="SparkFun-Hardware" deviceset="STANDOFF_ELECTRICAL" device=""/>
+<part name="H13" library="SparkFun-Hardware" deviceset="STANDOFF_ELECTRICAL" device=""/>
+<part name="H14" library="SparkFun-Hardware" deviceset="STANDOFF_ELECTRICAL" device=""/>
+<part name="U$43" library="SUPPLY" deviceset="DGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6031,6 +6099,13 @@ asi by slo prohodit s /3.3V1PWRON</text>
 <attribute name="NAME" x="388.874" y="102.743" size="1.524" layer="95" rot="R180" align="bottom-center"/>
 </instance>
 <instance part="CON2" gate="G$1" x="309.88" y="121.92"/>
+<instance part="H9" gate="G$1" x="20.32" y="259.08" rot="R270"/>
+<instance part="H10" gate="G$1" x="30.48" y="259.08" rot="R270"/>
+<instance part="H11" gate="G$1" x="40.64" y="259.08" rot="R270"/>
+<instance part="H12" gate="G$1" x="50.8" y="259.08" rot="R270"/>
+<instance part="H13" gate="G$1" x="60.96" y="259.08" rot="R270"/>
+<instance part="H14" gate="G$1" x="71.12" y="259.08" rot="R270"/>
+<instance part="U$43" gate="G$1" x="45.72" y="241.3" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -6204,6 +6279,33 @@ asi by slo prohodit s /3.3V1PWRON</text>
 <wire x1="307.34" y1="132.08" x2="297.18" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="132.08" x2="297.18" y2="116.84" width="0.1524" layer="91"/>
 <junction x="297.18" y="116.84"/>
+</segment>
+<segment>
+<pinref part="H9" gate="G$1" pin="P$1"/>
+<wire x1="20.32" y1="251.46" x2="20.32" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="246.38" x2="30.48" y2="246.38" width="0.1524" layer="91"/>
+<pinref part="H14" gate="G$1" pin="P$1"/>
+<wire x1="30.48" y1="246.38" x2="40.64" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="246.38" x2="45.72" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="246.38" x2="50.8" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="246.38" x2="60.96" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="246.38" x2="71.12" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="246.38" x2="71.12" y2="251.46" width="0.1524" layer="91"/>
+<pinref part="H13" gate="G$1" pin="P$1"/>
+<wire x1="60.96" y1="251.46" x2="60.96" y2="246.38" width="0.1524" layer="91"/>
+<junction x="60.96" y="246.38"/>
+<pinref part="H12" gate="G$1" pin="P$1"/>
+<wire x1="50.8" y1="251.46" x2="50.8" y2="246.38" width="0.1524" layer="91"/>
+<junction x="50.8" y="246.38"/>
+<pinref part="H11" gate="G$1" pin="P$1"/>
+<wire x1="40.64" y1="251.46" x2="40.64" y2="246.38" width="0.1524" layer="91"/>
+<junction x="40.64" y="246.38"/>
+<pinref part="H10" gate="G$1" pin="P$1"/>
+<wire x1="30.48" y1="251.46" x2="30.48" y2="246.38" width="0.1524" layer="91"/>
+<junction x="30.48" y="246.38"/>
+<wire x1="45.72" y1="246.38" x2="45.72" y2="243.84" width="0.1524" layer="91"/>
+<junction x="45.72" y="246.38"/>
+<pinref part="U$43" gate="G$1" pin="DGND"/>
 </segment>
 </net>
 <net name="SDO2-MOSI" class="0">

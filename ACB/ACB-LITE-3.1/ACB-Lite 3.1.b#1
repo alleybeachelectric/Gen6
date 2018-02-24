@@ -169,7 +169,7 @@
 <wire x1="42.4092" y1="105.4804" x2="42.4092" y2="86.0804" width="3.4" layer="19"/>
 <wire x1="42.4092" y1="86.0804" x2="23.0092" y2="86.0804" width="3.4" layer="19"/>
 <text x="-74.2" y="37" size="1.905" layer="108" ratio="9"></text>
-<text x="22.1" y="21.5" size="2" layer="21" font="vector" ratio="15">ACB LITE 3.2</text>
+<text x="22.1" y="21.5" size="2" layer="21" font="vector" ratio="15">ACB LITE 3.1</text>
 <text x="2.369" y="190.7426" size="1" layer="21" font="vector" ratio="18" rot="R90">(C) 2017 eLock Technologies LCC</text>
 <text x="12.8" y="161.7" size="2.032" layer="48" ratio="12">Actuators</text>
 <text x="32.86" y="150.83" size="1.6" layer="21" ratio="15">LEFT</text>
